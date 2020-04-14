@@ -1,0 +1,116 @@
+#incude <iostream>
+
+using namespace std;
+
+class Igrac{
+   privet:
+	string ime;
+	string pol;
+	sting bojaKoze;
+}
+
+class Teren{
+   privet:
+	int nadVisina;
+	string vode;
+	string vegetacija;
+}
+
+class Vreme{
+	string padavine;
+	string period;  - dan ili noc
+	int temperatura;
+}
+
+class Inventori{
+   privet:
+	int polja;
+	int VelicinaPolja;
+}
+
+class Zivotinje{
+   privet:
+	int vrstaZ;
+	sting proizvodi;   - kad je ubijete sta daje
+}
+
+class Gradjevine{
+   privet:
+	bool populacija;
+	int velicina;
+	bool sigurnost;
+	bool zagonetke;
+}
+
+class Kutije{
+   privet:
+	string nivo;
+	int retkocaK;
+}
+
+class Healt{
+   privet:
+	int kolicinaH;  - kolicina healta
+	int kolicinaA;  - kolicina armora
+	bool stanje;   - dali je igrac ziv ili mrtav
+}
+
+class Medikamenti{
+   privet:
+	string vrstaM;
+	int vremeUpotrebe;
+	int efi;  - koliko healt-a vraca koji item
+}
+
+class Hrana{
+   privet:
+	string vrstaH;
+	int hranljivost;   - koliko puni liniju za hranu posle upotrebe
+}
+
+class Materijal{
+	string vrstaMa;
+	int retkoca;
+}
+
+class Oruzije{
+   privet:
+	string recept;  - kako se pravi
+	int izdrzljivost;
+	bool primitivno;  - da li je primitivno ili ne
+	bool Nadaljinu;
+	int damageO;
+}
+
+class Orudje{
+   privet:
+	string receptO;  
+	int izdrzljivost;
+	bool primitivno;
+	int efikasnost;
+}
+
+class Oprema{
+   privet:
+	string vrstaOp;
+	int izdrzljivostO;
+	int zastita;
+}
+
+class Eksploziv{
+   privet:
+	string vrstaE;
+	int damageE;
+	string receptE;
+}
+
+class Vozila{
+   privet:
+	string vrstaV;
+	int dostupnost;
+	int izdrzljivostV;
+}
+
+
+
+
